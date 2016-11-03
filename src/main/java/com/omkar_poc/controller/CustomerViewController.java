@@ -12,7 +12,7 @@ public class CustomerViewController {
 	@RequestMapping(value={"","/"})
 	public String displayRegistrationForm(ModelMap model)
 	{
-		System.out.println("In display Controller");
+		System.out.println("In display Controller of CustomerViewController");
 		CustomerEntity cust = new CustomerEntity();
 		cust.setId(1);
 		cust.setName("omkar");
