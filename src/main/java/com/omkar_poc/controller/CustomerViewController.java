@@ -8,7 +8,7 @@ import com.omkar_poc.entity.CustomerEntity;
 
 @Controller
 @RequestMapping(value="/customer")
-public class CustomerViewController {
+public class CustomerViewController {//
 	@RequestMapping(value={"","/"})
 	public String displayRegistrationForm(ModelMap model)
 	{
